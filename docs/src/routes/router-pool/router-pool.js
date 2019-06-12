@@ -31,7 +31,7 @@ export class RouterPool extends HTMLElement {
 	}
     async __getPage(element){
         if(!customElements.get(element)){
-			await this.getImport(`src/pages/${element}/${element}.js`);
+			await this.getImport(`/micro-frontend-presentation/src/pages/${element}/${element}.js`);
 		}
 		else {
 			console.log('we already have the component');
