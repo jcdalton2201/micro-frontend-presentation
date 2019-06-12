@@ -1,0 +1,27 @@
+{
+  "name": "micro-frontend-presentation",
+  "version": "0.0.1",
+  "description": "Presentation work",
+  "main": "template.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start -c ./bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcdalton2201/micro-frontend-presentation.git"
+  },
+  "author": "Jason Dalton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcdalton2201/micro-frontend-presentation/issues"
+  },
+  "homepage": "https://github.com/jcdalton2201/micro-frontend-presentation#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "highlight.js": "^9.15.8"
+  }
+}
