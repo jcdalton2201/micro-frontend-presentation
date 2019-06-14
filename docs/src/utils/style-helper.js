@@ -1,6 +1,6 @@
 let baseStyle;
 async function init(){
-    const res = await fetch(`/src/pages/base-style.css`);
+    const res = await fetch(`/micro-front-end-presentation/src/pages/base-style.css`);
     baseStyle = await res.text();
 }
 
@@ -12,7 +12,7 @@ async function init(){
  */
 export async function  getHighlightStyle(shadowRoot, name='darcula'){
     const styleSheet = new CSSStyleSheet();
-    const res = await fetch(`/highlight/styles/${name}.css`);
+    const res = await fetch(`/micro-front-end-presentation/highlight/styles/${name}.css`);
     const style = await res.text();
     styleSheet.replace(style);
     shadowRoot.adoptedStyleSheets = [...shadowRoot.adoptedStyleSheets,styleSheet];
