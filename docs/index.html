@@ -6,21 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>I Like this</title>
     <style>
-            @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash:400,700&display=swap');
-            /* @import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap'); */
+            /* @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash:400,700&display=swap'); */
+            /* @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700&display=swap'); */
+            /* @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap'); */
+            /* @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap'); */
+            @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,400,700&display=swap');
             body {
                 background: black;
                 margin: 0;
                 padding: 0;
                 /* font-family: 'Amatic SC', cursive; */
-                font-family: 'Berkshire Swash', cursive;
+                font-family: 'Noto Serif JP', serif;
+                font-weight: 400;
                 color:white;
+            }
+            #light{
+                font-weight: 200;
             }
     </style>
 </head>
 <body>
+    
     <router-pool></router-pool>
 </body>
     <script src="highlight/highlight.pack.js"></script>
     <script src="./src/routes/router-pool/router-pool.js" type='module'></script>
+    <script src="./src/widgets/wizard-cartoon/wizard-cartoon.js" type='module'></script>
+    <script>
+        setTimeout(()=>{
+            document.querySelector('wizard-cartoon').lighting();
+        },2000);
+    </script>
 </html>

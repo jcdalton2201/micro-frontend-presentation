@@ -19,11 +19,19 @@ export async function  getHighlightStyle(shadowRoot, name='darcula'){
 }
 /**
  * 
- * @param {*} element 
+ * @param {HTMLElement} element 
  */
 export async function setBaseStyle(element){  
     const styleSheet = new CSSStyleSheet();
     styleSheet.replace(baseStyle);
     element.adoptedStyleSheets = [styleSheet];
+}
+
+export async function getComponentStyle(file,element){
+    const styleSheet = new CSSStyleSheet();
+    const res = await fetch(file);
+    const style = await res.text();
+    styleSheet.replace(style);
+    element.adoptedStyleSheets = [...element.adoptedStyleSheets,styleSheet];
 }
 init();

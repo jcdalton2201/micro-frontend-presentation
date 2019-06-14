@@ -1,7 +1,7 @@
 export class RouterPool extends HTMLElement {
     constructor(){
         super();
-        this.pages = ['intro-page'];
+        this.pages = ['intro-page','what-is-microfrontend'];
         this.pageIndex = 0;
         this.attachShadow({mode: 'open'});
         this['nextPage'] = this['nextPage'].bind(this);

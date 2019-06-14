@@ -1,7 +1,9 @@
 
-    // var proxy = require('proxy-middleware');
+    var proxy = require('proxy-middleware');
     var url = require('url');
-    
+    var webContext = url.parse('http://localhost:8050/');
+    webContext.route = '/micro-frontend-presentation'
+    webContext.preserveHost = false;
     
     /*
      |--------------------------------------------------------------------------
@@ -30,7 +32,7 @@
       proxy: false,
       port: 8050,
       middleware: [
-        
+        proxy(webContext)
       ],
       single:true,
       serveStatic: ['docs'],

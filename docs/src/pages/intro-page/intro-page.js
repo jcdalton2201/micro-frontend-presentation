@@ -1,5 +1,6 @@
 import '../../widgets/user-icon/user-icon.js';
 import {getHighlightStyle,setBaseStyle} from '../../utils/style-helper.js';
+import '../../widgets/wizard-cartoon/wizard-cartoon.js';
 export class IntroPage extends HTMLElement {
     constructor(){
         super();
@@ -34,14 +35,15 @@ export class IntroPage extends HTMLElement {
  }
  </style>
 <div class='containter'>
-<div class='intro-title'>Micro-Frontend and Using Web Components to do it.</div>
-<div class='intro'>
-    <user-icon></user-icon>
-    <div class='user-info'>
-     <div>Jason Dalton</div>
-     <div>Manager UI Center of Excellent</div>
-    </div>
+    <div class='intro-title'>Micro-Frontend and Using Web Components to do it.</div>
+    <div class='intro'>
+        <user-icon></user-icon>
+        <div class='user-info'>
+        <div>Jason Dalton</div>
+        <div>Manager UI Center of Excellent</div>
+        </div>
 </div>
+
 </div>
         `;
         setBaseStyle(this);

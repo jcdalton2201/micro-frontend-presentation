@@ -1,0 +1,7 @@
+#sleve{
+    transform-origin: 102px 135px
+}
+.lighting {
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+}
