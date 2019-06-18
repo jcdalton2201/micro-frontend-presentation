@@ -13,10 +13,12 @@ export class WhatIsMicrofrontendPage extends BaseAnimationPage {
     <div class="title">What is a Micro-FrontEnd?</div>
     <div class="body">
         <div class='action action1'>
-        Micro Frontends is to think about a website or web app as a composition of features which are owned by independent teams. Each team has a distinct area of business or mission it cares about and specialises in. A team is cross functional and develops its features end-to-end, from database to user interface.
+        Micro Frontends is to think about a website or web app as a <span class='emp'>composition of features</span> which are owned by independent teams. Each team has a <span class='emp'>distinct area</span> of business or mission it cares about and specialises in. A team is cross functional and develops its features end-to-end, from database to user interface.
         </div>
         <div class='action action2'>
-        A Capability that a front end will execute with a bounded context and states contain in the  MFE.
+        A Capability that a front end will execute with a bounded context and states contain in the  MFE. Be <span class='emp'>technology agnostic</span>, 
+        <span class='emp'>Isolate Code</span>, <span class='emp'>Favor Native</span> Browser Features 
+        over Custom APIs.
         </div>
         <div id='bottom-div'>
             <div id='wizard'>

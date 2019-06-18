@@ -13,3 +13,7 @@
     grid-row: 1/2;
     justify-self: center;
 }
+.emp {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

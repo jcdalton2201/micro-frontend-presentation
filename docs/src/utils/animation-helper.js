@@ -6,6 +6,8 @@
  */
 export function executeAnimation(event,shadowRoot,showIndex){
     if(event.keyCode === 78){
-        shadowRoot.querySelector(`.action${showIndex}`).classList.add('show');
+        if(shadowRoot.querySelector(`.action${showIndex}`)){
+            shadowRoot.querySelector(`.action${showIndex}`).classList.add('show');
+        }
     }
 }

@@ -1,0 +1,56 @@
+#Border{
+    stroke-dashoffset: 4200;
+    stroke-dasharray: 4200;
+    
+}
+#Border.show {
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#selectedTab {
+    stroke-dashoffset: 4000;
+    stroke-dasharray: 4000;
+    fill: transparent
+    
+}
+#Background-Tab1{
+    stroke-dashoffset: 4000;
+    stroke-dasharray: 4000;
+}
+#player{
+    stroke-dashoffset: 4000;
+    stroke-dasharray: 4000;
+}
+#info{
+    stroke-dashoffset: 4000;
+    stroke-dasharray: 4000;
+}
+.button {
+    stroke-dasharray: 50px;
+    stroke-dashoffset: 50px;
+
+}
+.button.show {
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#info.show {
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#player.show {
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#Background-Tab1.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#selectedTab.show {
+    stroke-dashoffset: 0;
+    fill:rgb(180, 236, 177);
+    transition: 4s;
+}
+svg {
+    visibility: hidden;
+}

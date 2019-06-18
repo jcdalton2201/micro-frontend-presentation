@@ -1,0 +1,187 @@
+.titles {
+    fill:white;
+}
+#appGroup {
+    display: none;
+}
+#newsCap{
+    display:none;
+}
+#player{
+    display:none;
+}
+#application{
+    stroke-dashoffset: 4050;
+    stroke-dasharray: 4050;
+}
+#application.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#applicationTitle{
+    fill:transparent;
+}
+#applicationTitle.show{
+    transition: 4s;
+    fill:white;
+}
+#newscap{
+    stroke-dashoffset: 3200;
+    stroke-dasharray: 3200;
+}
+#newscap.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#newsCapTitle{
+    fill:transparent;
+    /* stroke: white; */
+}
+#newsCapTitle.show{
+    transition: 4s;
+    fill:white;
+}
+#playerTitleCap{
+    fill:transparent;
+    /* stroke: white; */
+}
+#playerTitleCap.show{
+    transition: 4s;
+    fill:white;
+}
+/**
+**/
+#newsUi{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#newsUi.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#newsTitleUi.show{
+    fill:white;
+    transition: 4s;
+}
+#newsTitleUi{
+    fill:transparent;
+}
+/**
+**/
+#newsBff{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#newsBff.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#newsTitleBff.show{
+    fill:white;
+    transition: 4s;
+}
+#newsTitleBff{
+    fill:transparent;
+}
+/**
+**/
+#newsMicroservice{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#newsMicroservice.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#newsTitleMicroservice.show{
+    fill:white;
+    transition: 4s;
+}
+#newsTitleMicroservice{
+    fill:transparent;
+}
+/**
+**/
+#newsDb{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#newsDb.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#newsTitleDb.show{
+    fill:white;
+    transition: 4s;
+}
+#newsTitleDb{
+    fill:transparent;
+}
+/**
+**/
+#playerUi{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#playerUi.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#playerTitleUi.show{
+    fill:white;
+    transition: 4s;
+}
+#playerTitleUi{
+    fill:transparent;
+}
+/**
+**/
+#playerBff{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#playerBff.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#playerTitleBff.show{
+    fill:white;
+    transition: 4s;
+}
+#playerTitleBff{
+    fill:transparent;
+}
+/**
+**/
+#playerMicroservice{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#playerMicroservice.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#playerTitleMicroservice.show{
+    fill:white;
+    transition: 4s;
+}
+#playerTitleMicroservice{
+    fill:transparent;
+}
+/**
+**/
+#playerDb{
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+}
+#playerDb.show{
+    stroke-dashoffset: 0;
+    transition: 4s;
+}
+#playerTitleDb.show{
+    fill:white;
+    transition: 4s;
+}
+#playerTitleDb{
+    fill:transparent;
+}
