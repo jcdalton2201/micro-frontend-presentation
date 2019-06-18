@@ -1,0 +1,68 @@
+.arrow{
+    stroke: blue;
+    stroke-width: 5px;
+    transform: translateX(718px) translateY(41px);
+    
+}
+.arrow.event {
+    transform: translateX(885px) translateY(147px) rotate(-90deg);
+    transform-origin: 63px 63px;
+}
+
+.arrowbody {
+    
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400; 
+    animation-duration: 2.0s;
+    animation-fill-mode: backwards;
+    animation-name: draw;
+    animation-iteration-count: infinite;
+}
+.tail-1 {
+    animation-duration: 2.0s;
+    animation-name:drawtail1;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400; 
+  }
+.tail-2 {
+    /* animation-delay: .7s; */
+    animation-duration: 2.0s;
+    animation-name:drawtail2;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes draw {
+    
+     75% {
+        stroke-dashoffset: 0;
+     }
+     100%{
+        stroke-dashoffset: 0;
+     }
+
+   }
+@keyframes drawtail1 {
+    
+     25% {
+        stroke-dashoffset: 400;
+     }
+     100% {
+        stroke-dashoffset: 0;
+     }
+
+}
+@keyframes drawtail2 {
+    
+    45% {
+       stroke-dashoffset: 400;
+    }
+    100% {
+       stroke-dashoffset: 0;
+    }
+
+}

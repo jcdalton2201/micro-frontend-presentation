@@ -1,0 +1,57 @@
+#build-icon{
+    display: none;
+}
+#truck{
+    display: none;
+}
+#truck.show{
+    animation-duration: 3s;
+    animation-name: driveTruck;
+    transform: translate(328px, 131px);
+}
+#NPM {
+    transform-origin: 215px 55px;
+    transform: rotate(-24deg); 
+}
+#NPM.flip {
+    animation-duration: 1.5s;
+    animation-name: flipNpm;
+    transform: translate(-330px, 65px) rotate(0deg);
+}
+#home{
+    display: none;
+}
+#Sat{
+    display: none;
+}
+#beem{
+    transform: rotate(45deg);
+    transform-origin: 90px 100px;
+    transition: 3s;
+}
+#beem.beem{
+    transform: translate(-900px, -500px) rotate(45deg);
+}
+@keyframes driveTruck {
+    from{
+        transform: translate(697px, 120px);
+    }
+    100%{
+        transform: translate(328px, 131px);
+    }
+
+  }
+@keyframes flipNpm {
+    from {
+        transform: rotate(-24deg);
+    }
+    50% {
+        transform: translate(-184px, -85px) rotate(-180deg);
+    }
+    75% {
+        transform: translate(-284px, 0px) rotate(-270deg);
+    }
+    100% {
+        transform: translate(-330px, 65px) rotate(-0deg);
+    }
+}
