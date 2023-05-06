@@ -22,7 +22,7 @@
   "homepage": "https://github.com/jcdalton2201/micro-frontend-presentation#readme",
   "dependencies": {
     "animejs": "^3.0.1",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.29.1",
     "highlight.js": "^9.15.8",
     "proxy-middleware": "^0.15.0"
   }
